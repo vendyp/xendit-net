@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Dwi Vendy Pratama</Authors>
+    <Description>This is an open source library of Xendit API SDK written in C#</Description>
+    <PackageProjectUrl>https://github.com/moduit-engineering/xendit-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/moduit-engineering/xendit-dotnet</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
