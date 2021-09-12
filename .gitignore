@@ -330,7 +330,7 @@ ASALocalRun/
 .mfractor/
 
 # Hide vscode
-#.vscode/
+.vscode/
 
 # exclude Logs folders
 [Ll]ogs/
