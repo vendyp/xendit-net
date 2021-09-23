@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Xendit.Net
 {
-    public class DefaultHttpClient : IXenditHttpClient
+    public class DefaultHttpClient : IHttpClient
     {
         private readonly HttpClient _httpClient;
         private static readonly Lazy<HttpClient> LazuDefaultHttpClient = new Lazy<HttpClient>(BuildHttpClient);

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Xendit.Net
 {
-    public interface IXenditHttpClient
+    public interface IHttpClient
     {
         Task<XenditResponse> SendAsync(XenditRequest request, CancellationToken cancellationToken);
     }
