@@ -14,7 +14,6 @@ namespace Xendit.Net.Tests.Objects
         public async Task DefaultHttpClient_Must_Return_Correct_Result_Async()
         {
             //Given
-            string response = "{\"balance\":1937463061}";
             var uri = new Uri("https://api.xendit.co/balance");
             var headers = new Dictionary<string, string>();
             string username = "xnd_development_O46JfOtygef9kMNsK+ZPGT+ZZ9b3ooF4w3Dn+R1k+2fT/7GlCAN3jg==";
@@ -27,7 +26,6 @@ namespace Xendit.Net.Tests.Objects
             var result = await httpClient.SendAsync(request, CancellationToken.None);
 
             Assert.Equal(HttpStatusCode.OK, result.HttpStatusCode);
-            Assert.Equal(response, result.Content);
         }
     }
 }
